@@ -11,4 +11,4 @@ In this project, you'll get to start from scratch! To complete the project, you 
   * a blog post
 as well as any related CSS files for styling.
 
-Project Demo [here](https://blissful-mcclintock-2f5566.netlify.app/)
+Project Demo [here](https://sahilcodes-fend-p1.netlify.app)
