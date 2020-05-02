@@ -1,0 +1,26 @@
+@import url(header-style.css);
+@import url(side-content.css);
+@import url(posts-section-style.css);
+@import url(footer-style.css);
+/*reset css*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Kalam", "sans-serif";
+  font-size: 16px;
+  height: auto;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+}
+
+.blog-info {
+  display: none;
+}

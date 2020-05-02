@@ -1,0 +1,96 @@
+.container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 300px;
+  margin: 20px 0 0 0;
+  padding: 40px;
+}
+
+.aside-content {
+  width: 300px;
+  /*	height: 850px;*/
+  /*	margin: 20px 0;*/
+  /*	padding: 20px 0 0 0;*/
+  /*	border: 2px solid #3c9ec2;*/
+  /*	border-radius: 50px;*/
+  grid-column-start: 2;
+}
+
+h2 {
+  color: #083b66;
+}
+.about-me {
+  text-align: center;
+  margin: 30px 0;
+  border: 2px solid #083b66;
+  box-shadow: 2px 2px #083b66;
+  border-radius: 5px;
+  width: 300px;
+}
+.about-me h2 {
+  margin: 20px 0 0 0;
+}
+
+.about-img {
+  width: 296px;
+  height: 296px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.about-me p {
+  text-align: center;
+  padding: 20px 20px 10px 20px;
+}
+
+.follow {
+  text-align: center;
+}
+
+.social {
+  font-size: 25px;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-instagram,
+.fa-tumblr {
+  margin: 50px 10px;
+  color: #192a39;
+  cursor: pointer;
+}
+
+.fa-facebook:hover {
+  color: #3c9ec2;
+}
+.fa-twitter:hover {
+  color: #3c9ec2;
+}
+.fa-instagram:hover {
+  color: #3c9ec2;
+}
+.fa-tumblr:hover {
+  color: #3c9ec2;
+}
+
+.Archives {
+  width: 300px;
+}
+.Archives h2 {
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+.Archives ul {
+  list-style: none;
+  padding: 0 30px 0 30px;
+  text-align: center;
+}
+
+.Archives li {
+  padding: 5px 0;
+  display: inline;
+}
+
+.Archives a {
+  color: #3c9ec2;
+}

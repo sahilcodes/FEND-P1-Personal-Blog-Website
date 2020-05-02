@@ -1,0 +1,124 @@
+@import url(/blog-css/header-style.css);
+@import url(/blog-css/footer-style.css);
+@import url(media-query.css);
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Kalam", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+}
+
+h2,
+h3,
+h4 {
+  color: #192a39;
+}
+
+.posts-sec {
+  margin: 50px 0;
+  text-align: justify;
+  padding: 30px;
+}
+blockquote {
+  font-weight: 800;
+  padding: 10px 0;
+}
+bla .post {
+  padding: 0 0 40px 0;
+  border-bottom: thick solid lightgrey;
+}
+.post-header {
+  width: 800px;
+  border-radius: 20px;
+}
+
+.post h1 {
+  margin: 30px 0 0 0;
+  font-size: 28px;
+  color: #3c9ec2;
+}
+
+.post-info {
+  color: lightgrey;
+  font-size: 15px;
+  padding: 0 0 20px 0;
+}
+
+.post-info span {
+  color: blue;
+  text-decoration: underline;
+}
+
+.content {
+  width: 800px;
+  text-align: justify;
+}
+
+.link-to-posts {
+  text-align: center;
+  margin: -20px 0px 0 0px;
+  font-style: italic;
+}
+
+.newer {
+  margin-left: 40px;
+}
+
+.list {
+  margin: 15px 0;
+}
+
+h2,
+h3 {
+  margin: 20px 0;
+}
+
+.post-img-1 {
+  text-align: center;
+}
+
+figure {
+  text-align: center;
+  margin: 15px 0;
+}
+
+figcaption {
+  text-align: center;
+}
+.social-share {
+  margin: 0 0 20px 0;
+}
+
+.social-share p {
+  display: inline;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.social-share i {
+  color: #3c9ec2;
+  font-size: 20px;
+  padding: 0 10px;
+}
+
+.social-share i:hover {
+  color: #083b66;
+  cursor: pointer;
+}
+
+.link-to-posts .home {
+  padding: 0 30px 0 0;
+}
+
+.link-to-posts a {
+  color: #083b66;
+}

@@ -1,0 +1,52 @@
+footer {
+  background-color: rgb(65, 65, 65);
+  height: 9vw;
+  margin: 20px 0 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subscribe {
+  margin: 30px auto;
+  /*	text-align: center;*/
+}
+.subscribe {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  /*	align-items: baseline;*/
+  /*	width: 200px;*/
+}
+
+.mail {
+  width: 200px;
+  height: 40px;
+  padding: 4px;
+  margin: 10px 20px;
+  border-radius: 5px;
+}
+
+.subscribe-btn {
+  width: 140px;
+  height: 40px;
+  margin: 10px 0;
+  border: 2px solid #f89827;
+  border-radius: 5px;
+  box-shadow: 2px 2px #f89827;
+  background-color: #f89827;
+  color: white;
+  font-family: "Kalam", sans-serif;
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 20px;
+  /*	padding: 5px;*/
+}
+
+.footer-text {
+  color: white;
+  font-size: 13px;
+  align-self: flex-end;
+  padding: 10px;
+}
